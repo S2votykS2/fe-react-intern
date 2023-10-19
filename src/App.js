@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.scss";
+import PrivateRoute from "./routes/privateRoute";
 
 function App() {
-  return <div className="App">React router </div>;
+  return (
+    <>
+      <PrivateRoute> </PrivateRoute>{" "}
+    </>
+  );
 }
 
 export default App;
